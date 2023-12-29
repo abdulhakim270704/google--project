@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+section{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section header{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    top: 0;
+    padding: 20px;
+}
+section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section header ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+section header ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+section header ul li button{
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color:blue;
+    font-size: 14px;
+    font-weight: bold;
+    padding:8px 14px;
+    cursor: pointer;
+}
+section .main{
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+section .main .searchbar{
+    position: relative;
+    width: 100%;
+    margin-left: 20px;
+}
+section .main .searchbar .search{
+    width: 100%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius:30px;
+    outline: none;
+    border: 1px solid wheat;
+    font-size: 16px;
+
+}
+section .main .searchbar .icons{
+    position: absolute;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 12px 20px;
+    justify-content: space-between;
+}
+section .main .buttons{
+    margin-top: 20px;
+}
+section .main .buttons button{
+    margin: 0px 5px;
+    padding: 10px 20px;
+    font-size: 15px;
+    color: #434040;
+    border: none;
+    border-radius: 1px solid transparent;
+    cursor:pointer;
+
+}
+section .main .buttons button:hover{
+    border-radius: 1px solid #ccc;
+}
+section .main .lang{
+    margin-top: 20px;
+}
+section .footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #c7b6b6;
+}
+section .footer .row{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid black;
+}
+section .footer .row ul {
+    display: flex;
+
+}
+section .footer .row ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+section .footer .row ul li a{
+    text-decoration: none;
+    color: #3f4144;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+
+}
+
+
+
